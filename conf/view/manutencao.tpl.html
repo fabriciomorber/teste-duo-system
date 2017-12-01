@@ -1,0 +1,36 @@
+<form action="" method="post">
+    <div class="itemData">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" value="#nome#" required>
+    </div>
+    <div class="itemData">
+        <label for="descricao">Descrição</label>
+        <textarea name="descricao" id="descricao" cols="30" rows="10" required>#descricao#</textarea>
+    </div>
+    <div class="itemData">
+        <label for="dataInicio">Data de Início</label>
+        <input type="date" name="dataInicio" id="dataInicio" required value="#dataInicio#">
+    </div>
+    <div class="itemData">
+        <label for="dataFim">Data de Fim</label>
+        <input type="date" name="dataFim" id="dataFim" value="#dataFim#">
+    </div>
+    <div class="itemData">
+        <label for="status">Status</label>
+        <select name="status" id="status">
+            <option value="1">Pré Cadastrado</option>
+            <option value="2">Pendente</option>
+            <option value="3">Em Desenvolvimento</option>
+            <option value="4">Em Teste</option>
+            <option value="5">Concluído</option>
+        </select>
+    </div>
+    <div class="itemData">
+        <label for="situacao">Situação</label>
+        <select name="situacao" id="situacao">
+            <option value="0">Ativo</option>
+            <option value="1">Inativo</option>
+        </select>
+    </div>
+    <div><button type="submit" class="btn btn-primary">Salvar</button></div>
+</form>
